@@ -1,0 +1,29 @@
+header {
+    font-size: 45px;
+    border: solid red;
+}
+
+.blue {
+    font-size: 35px;
+    border: solid blue;
+}
+
+.yellow {
+    font-size: 35px;
+    border: solid yellow;
+}
+
+#demo {
+    font-size: 35px;
+    border: solid green;
+}
+
+button {
+    border: solid pink;
+
+}
+
+.purple {
+    font-size: 45px;
+    border: solid purple;
+}
