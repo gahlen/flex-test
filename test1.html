@@ -6,27 +6,17 @@
     <title>Flex</title>
   </head>
   <body>
+    <div class="flex-container">
+    <section class="flexible">    
     <header>I am the header</header>
     <h1 class = "blue">Children elements</h1>
-
     <p class="yellow">Click the button to get the tag names of the body element's children.</p>
+    </section>
     <p class="purple">I am the purple one</p>
     <button onclick="myFunction()">List Children</button>
-
-    <p id="demo"></p>
-
-    <script>
-      function myFunction() {
-      var c = document.body.children;
-      var txt = "";
-      var i;
-      for (i = 0; i < c.length; i++) {
-      txt = txt + c[i].tagName + "<br>";
-      }
-
-     document.getElementById("demo").innerHTML = txt;
-     }
-    </script>
+    <input class="green" value="Hello input"></input>
+    <p id="demo"></p>  
+    </div>
 
 
   </body>

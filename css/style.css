@@ -1,29 +1,49 @@
+.flex-container {
+    display: flex;
+}
+
+.flexible {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 header {
     font-size: 45px;
     border: solid red;
+    border-radius: 12px;
 }
 
 .blue {
     font-size: 35px;
     border: solid blue;
+    border-radius: 12px;
+
 }
 
 .yellow {
     font-size: 35px;
     border: solid yellow;
+    border-radius: 12px;
+
 }
 
-#demo {
+.green {
     font-size: 35px;
     border: solid green;
+    border-radius: 12px;
+
 }
 
 button {
     border: solid pink;
+    border-radius: 12px;
+
 
 }
 
 .purple {
     font-size: 45px;
     border: solid purple;
+    border-radius: 12px;
 }
